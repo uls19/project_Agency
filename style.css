@@ -274,20 +274,12 @@ a {
 
 }
 
-.products__item {}
 
 .meet {
     margin-top: 132px;
     padding-left: calc(50% - 1218px / 2);
     padding-bottom: 115px;
 }
-
-.meet__top {}
-
-.heading {}
-
-.heading_meet {}
-
 
 .meet_text {
     margin-top: 34px;
@@ -589,7 +581,55 @@ a {
     color: #FFFFFF;
     width: 315px;
 }
+.footer {
+    padding-top: 47px;
+    padding-bottom: 31px;
+    background: #313030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B8B8B8;
+}
+
+.footer__box {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.footer__icon {
+    fill: #2D2D2D;
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+}
+
+.footer__icon:hover {
+    background-color: #2D2D2D;
+    border: 1px solid white;
+    
+}
+
+path {
+    transition: fill 0.3s;
+}
+
+.footer__icon:hover path {
+    fill: white;
+    
+}
 
 @media screen and (max-width: 1240px) {
     .header-content,
