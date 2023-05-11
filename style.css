@@ -42,6 +42,7 @@ a {
     width: 90px;
     height: 5px;
     background-color: rgb(241, 10, 10);
+    border-radius: 5px;
 }
 
 
@@ -655,8 +656,13 @@ path {
 
     }
     .get {
+        padding-top: 72px;
         padding-left: 10px;
+        padding-bottom: 52px;
         
+    }
+    .get__content {
+        gap:52px;
     }
     .get__contacts {
         padding: 16px 20px;
@@ -755,14 +761,23 @@ path {
     .header-info__title {
         font-size: 42px;
     }
+    .header-info__video {
+        height: 310px;
+    }
     .design__mail {
         width: 300px;
+        padding: 16px 38px;
     }
 
     .design__button {
         margin-left: 0;
+        padding: 12px 58px;
     }
-    
+    .design__title {
+        font-size: 30px;
+        line-height: 38px;
+
+    }
 }
 
 
@@ -774,6 +789,11 @@ path {
         gap: 10px;
         cursor: pointer;
         padding: 25px 11px;
+    }
+
+
+    .header-info__video {
+        height: 240px;
     }
 
     .header-nav {
