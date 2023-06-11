@@ -673,6 +673,35 @@ path {
     }
 }
 
+@media screen and (max-width: 800px){
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+        padding: 25px 11px;
+    }
+    .header-nav {
+        background: #000000;
+        position: absolute;
+        top: 85px;
+        left: 0px;
+        transition-duration: 0.5s;
+    }
+    .header-nav_hidden {
+        left: -120px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__link {
+        padding: 38px 16px 26px;
+        width: 80px;
+        justify-content: center;
+    }
+
+}
+
 @media screen and (max-width: 780px) {
 
     .meet__top {
@@ -783,41 +812,10 @@ path {
 
 
 @media screen and (max-width: 475px) {
-    .burger {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        cursor: pointer;
-        padding: 25px 11px;
-    }
-
-
     .header-info__video {
         height: 240px;
     }
-
-    .header-nav {
-        background: #000000;
-        position: absolute;
-        top: 85px;
-        left: 0px;
-        transition-duration: 0.5s;
-    }
-
-    .header-nav_hidden {
-        left: -120px;
-
-    }
-
-    .menu {
-        flex-direction: column;
-    }
-
-    .menu__link {
-        padding: 38px 16px 26px;
-        width: 80px;
-        justify-content: center;
-    }
+    
 
     .header-info__title {
         font-size: 34px;
